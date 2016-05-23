@@ -67,6 +67,7 @@ RUN pip --no-cache-dir install \
         ipykernel \
         jupyter \
         matplotlib \
+	sklearn \
         && \
     python -m ipykernel.kernelspec
 
